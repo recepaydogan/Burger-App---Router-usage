@@ -1,0 +1,33 @@
+.main-page {
+  background-image: url(https://picsum.photos/1250/1000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 82.2vh;
+  position: relative;
+  background-position: bottom;
+}
+.order button {
+  font-size: 18px;
+  padding: 7px 26px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #252525;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 48px;
+  border-radius: 10px;
+}
+.order {
+  position: absolute;
+  bottom: 25%;
+  left: 14%;
+}
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
